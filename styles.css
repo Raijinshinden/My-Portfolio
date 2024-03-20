@@ -4,7 +4,27 @@ body, html{
 }
 
 .sub-header{
+    margin-left: 20px;
     text-decoration: underline;
+}
+
+.main-text{
+    margin-left: 20px;
+}
+
+.mainbtn{
+    background-color: #d633ff;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.mainbtn:hover{
+    background-color: #f0b3ff;
+    color: black;
 }
 
 /*I want to add a background colour to the Navigation bar*/
@@ -93,5 +113,5 @@ body, html{
 }
 
 .card-img{
-    border-radius: 5px 5px 5px 5px; /*This is how to round the corners of the img.*/
+    border-radius: 5px; /*This is how to round the corners of the img.*/
 }
