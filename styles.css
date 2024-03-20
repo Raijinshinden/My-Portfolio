@@ -1,0 +1,66 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+}
+
+/*I want to add a background colour to the Navigation bar*/
+.topnav{
+    background-color: #d633ff;
+    overflow: hidden;
+}
+
+/*I want to style the links in the Navigation bar*/
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*Can be used to remove any decorations from the text. */
+    font-size: 17px;
+}
+
+/*How to change link colour on hover.*/
+.topnav a:hover{
+    background-color: #f0b3ff;
+    color: black;
+}
+
+/*Add a colour for the current/active link.*/
+.topnav a.active{
+    background-color: #660080;
+    color: white;
+}
+
+/*How to style the hero image*/
+.hero-image{
+    /*I'll use a ".linear-gradient" to add a darken background effect to the image, which will make the text easier to read.*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Osaka.jpeg);
+    /*Next, I want to set the image to a specific height.*/
+    height: 50%;
+    /*Now, I want to position and center the image, so it scales nicely on all screens.*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Now I want to center my hero-text onto my background-image.*/
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.my-photo{
+    /*The first 3 lines center my image on the webpage.*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%; 
+}
