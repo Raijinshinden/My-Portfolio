@@ -97,8 +97,9 @@ body, html{
 }
 .card{ /*Adding CSS to my HTML card*/
     /*First, I'll add shadows to create a card effect.*/
-    box-shadow: 0 8px 16px 0 rgba(67, 62, 62, 0.2); /*Adds shadow effects around and element's frames.*/
+    box-shadow: 0 8px 16px 0 rgba(67, 62, 62, 0.2);/*Adds shadow effects around and element's frames.*/
     transition: 0.3s;
+    padding: 16px 16px; /*Create some space between the img and the edges of the card.*/
     border-radius: 5px;
     width: 300px;
     margin-top: 25px;
@@ -109,7 +110,7 @@ body, html{
 }
 
 .card:hover{
-    box-shadow: 0 16px 32px 0 rgba(67, 62, 62, 0.2);
+    box-shadow: 0 20px 32px 0 rgba(41, 38, 38, 0.2);
 }
 
 .card-img{
