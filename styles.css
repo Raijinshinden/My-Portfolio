@@ -3,6 +3,10 @@ body, html{
     margin: 0%;
 }
 
+.sub-header{
+    text-decoration: underline;
+}
+
 /*I want to add a background colour to the Navigation bar*/
 .topnav{
     background-color: #d633ff;
@@ -63,4 +67,31 @@ body, html{
     height: 400px;
     width: 400px;
     border-radius: 50%; 
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{ /*Adding CSS to my HTML card*/
+    /*First, I'll add shadows to create a card effect.*/
+    box-shadow: 0 8px 16px 0 rgba(67, 62, 62, 0.2); /*Adds shadow effects around and element's frames.*/
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.card p, h4{
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(67, 62, 62, 0.2);
+}
+
+.card-img{
+    border-radius: 5px 5px 5px 5px; /*This is how to round the corners of the img.*/
 }
