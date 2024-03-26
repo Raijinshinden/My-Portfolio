@@ -119,3 +119,8 @@ body, html{
 .card-img{
     border-radius: 5px; /*This is how to round the corners of the img.*/
 }
+
+p, li{
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: ;
+}
