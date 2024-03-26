@@ -2,6 +2,7 @@ body, html{
     height: 100%;
     margin: 0%;
     width: 100%;
+    background-color: ;
 }
 
 .sub-header{
@@ -106,6 +107,7 @@ body, html{
     border-radius: 5px;
     width: 300px;
     margin-top: 25px;
+    background-color: #f2f2f2;
 }
 
 .card p, h4{
@@ -122,5 +124,16 @@ body, html{
 
 p, li{
     font-family: "Open Sans", sans-serif;
-    letter-spacing: ;
+    font-size: 1.5rem;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.medium{
+    height: 5px;
+    background-color: #f0b3ff;
+    border: 0;
 }
