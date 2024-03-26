@@ -2,12 +2,12 @@ body, html{
     height: 100%;
     margin: 0%;
     width: 100%;
-    background-color: #d633ff77;
 }
 
 .sub-header{
     margin-left: 20px;
     text-decoration: underline;
+    font-family: "Roboto Slab";
 }
 
 .main-text{
