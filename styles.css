@@ -1,6 +1,7 @@
 body, html{
     height: 100%;
     margin: 0%;
+    width: 100%;
 }
 
 .sub-header{
@@ -20,6 +21,7 @@ body, html{
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .mainbtn:hover{
