@@ -33,13 +33,17 @@ body, html{
 }
 
 /*I want to add a background colour to the Navigation bar*/
-.topnav{
+.topnav ul{
+    display: block;
     background-color: #d633ff;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
-    position: fixed;
-    top: 0; 
-    left: 0;
-    right: 0; 
+}
+
+.topnav li{
+    font-size: 
 }
 
 /*I want to style the links in the Navigation bar*/
@@ -50,7 +54,6 @@ body, html{
     padding: 14px 16px;
     text-decoration: none; /*Can be used to remove any decorations from the text. */
     font-size: 17px;
-    z-index: auto;
 }
 
 /*How to change link colour on hover.*/
