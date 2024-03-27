@@ -32,12 +32,10 @@ body, html{
     cursor: pointer;
 }
 
-
 /*I want to add a background colour to the Navigation bar*/
 .topnav{
     background-color: #d633ff;
     overflow: hidden;
-    z-index: auto;
 }
 
 /*I want to style the links in the Navigation bar*/
