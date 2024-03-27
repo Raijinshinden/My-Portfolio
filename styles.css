@@ -29,12 +29,14 @@ body, html{
 .mainbtn:hover{
     background-color: #f0b3ff;
     color: black;
+    cursor: pointer;
 }
 
 /*I want to add a background colour to the Navigation bar*/
 .topnav{
     background-color: #d633ff;
     overflow: hidden;
+    
 }
 
 /*I want to style the links in the Navigation bar*/
@@ -51,6 +53,7 @@ body, html{
 .topnav a:hover{
     background-color: #f0b3ff;
     color: black;
+    cursor: pointer;
 }
 
 /*Add a colour for the current/active link.*/
