@@ -15,6 +15,14 @@ body, html{
     margin-left: 20px;
 }
 
+h1{
+    font-size: 70px;
+}
+
+.hero-sub-head{
+    font-size: 30px;
+}
+
 .mainbtn{
     background-color: #d633ff;
     color: #f2f2f2;
@@ -49,7 +57,7 @@ body, html{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; /*Can be used to remove any decorations from the text. */
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*How to change link colour on hover.*/
@@ -76,6 +84,7 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 400px;
 }
 
 /*Now I want to center my hero-text onto my background-image.*/
@@ -92,8 +101,7 @@ body, html{
 .my-photo{
     /*The first 3 lines center my image on the webpage.*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 10px auto;
     height: 400px;
     width: 400px;
     border-radius: 50%; 
