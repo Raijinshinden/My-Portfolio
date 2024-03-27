@@ -36,6 +36,10 @@ body, html{
 .topnav{
     background-color: #d633ff;
     overflow: hidden;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
 }
 
 /*I want to style the links in the Navigation bar*/
@@ -94,6 +98,11 @@ body, html{
     height: 400px;
     width: 400px;
     border-radius: 50%; 
+}
+
+#about{
+    height: 300px;
+    scroll-behavior: smooth;
 }
 
 .cards-container {
