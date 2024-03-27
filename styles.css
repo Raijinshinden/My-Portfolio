@@ -5,6 +5,10 @@ body, html{
     /*background-color:*/ ;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 .sub-header{
     margin-left: 20px;
     text-decoration: underline;
