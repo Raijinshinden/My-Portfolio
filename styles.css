@@ -46,13 +46,14 @@ body, html{
     padding: 14px 16px;
     text-decoration: none; /*Can be used to remove any decorations from the text. */
     font-size: 17px;
+    z-index: auto;
 }
 
 /*How to change link colour on hover.*/
 .topnav a:hover{
     background-color: #f0b3ff;
     color: black;
-    
+    cursor: pointer;
 }
 
 /*Add a colour for the current/active link.*/
