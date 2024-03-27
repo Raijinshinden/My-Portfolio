@@ -42,10 +42,6 @@ body, html{
     overflow: hidden;
 }
 
-.topnav li{
-    font-size: 
-}
-
 /*I want to style the links in the Navigation bar*/
 .topnav a{
     float: left;
@@ -53,7 +49,7 @@ body, html{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; /*Can be used to remove any decorations from the text. */
-    font-size: 17px;
+    font-size: 25px;
 }
 
 /*How to change link colour on hover.*/
