@@ -58,6 +58,8 @@ h1{
     overflow: hidden;
 }
 
+
+
 /*I want to style the links in the Navigation bar*/
 .topnav a{
     float: left;
@@ -73,12 +75,14 @@ h1{
     background-color: #f0b3ff;
     color: black;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 /*Add a colour for the current/active link.*/
 .topnav a.active{
     background-color: #660080;
     color: white;
+    border-radius: 10px;
 }
 
 /*How to style the hero image*/
