@@ -116,7 +116,7 @@ h1{
 }
 
 #about{
-    height: 300px;
+    height: auto;
 }
 
 .cards-container {
