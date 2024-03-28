@@ -1,7 +1,9 @@
 body, html{
     height: 100vh;
     margin: 0%;
-    width: 100%;
+    max-width: 100%;
+    min-width: 600px;
+    overflow-x: hidden;
     /*background-color:*/ ;
 }
 
