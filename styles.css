@@ -52,6 +52,7 @@ h1{
 /*I want to add a background colour to the Navigation bar*/
 .topnav ul{
     display: flex;
+    justify-content: space-evenly;
     background-color: #d633ff;
     list-style-type: none;
     padding: 0px;
