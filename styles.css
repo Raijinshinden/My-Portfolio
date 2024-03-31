@@ -51,12 +51,14 @@ h1{
 
 /*I want to add a background colour to the Navigation bar*/
 .topnav ul{
-    display: block;
+    display: flex;
     background-color: #d633ff;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    position: fixed;
+    z-index: 2;
 }
 
 
