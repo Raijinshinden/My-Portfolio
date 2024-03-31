@@ -63,8 +63,8 @@ h1{
     width: 100vw;
 }
 
-.topnav ul li{
-    font-size:;
+.topnav ul, li{
+    font-weight: bold;
 }
 
 
